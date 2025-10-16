@@ -20,7 +20,7 @@ const Navbar = () => {
                             <div>
                                 <DarkMode />
                             </div>
-                            <ul className="flex sm:gap-4">
+                            <ul className="hidden sm:flex sm:gap-4">
                                 <li>
                                     <a href="#" className="inline-block
                                     py-4 px-4 hover:text-amber-950">Home</a>
@@ -34,7 +34,7 @@ const Navbar = () => {
                                     py-4 px-4 hover:text-amber-950">Contact</a>
                                 </li>
                             </ul>
-                            <button className="bg-gradient-to-r from-amber-600 to-secondary
+                            <button className="bg-gradient-to-r from-primary to-secondary
                             text-black px-4 py-1 rounded-full hover:scale-105 duration-300 flex items-center gap-2">
                                 Order
                                 <FaCartShopping className="text-xl text-white drop-shadow-sm cursor-pointer" />

@@ -85,7 +85,7 @@ const Hero = () => {
                                                     data-aos-once="true"
                                                     key={item.id}
                                                     src={item.img}
-                                                    className="max-w-[800px] h-[100px] object-contain i
+                                                    className="max-w-[100px] h-[100px] object-contain i
                                                     nline-block hover:scale-105 duration-200"
                                                     onClick={
                                                         () => {
