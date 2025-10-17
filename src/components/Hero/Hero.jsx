@@ -26,7 +26,7 @@ const bgImage = {
     backgroundRepeat: 'no-repeat'
 };
 const Hero = () => {
-    const [imageId, setImageId] = React.useState(1);
+    const [imageId, setImageId] = React.useState(Food11);
     return (
         <>
             <div style={bgImage}
@@ -65,7 +65,7 @@ const Hero = () => {
                                 <div>
                                     {/* main image section */}
                                     <div
-                                        className="flex justify-center items-center h-[300px] sm:h-[450px] overflow-hidden">
+                                        className="flex justify-center items-center h-[200px] sm:h-[350px] overflow-hidden">
                                         <img
                                             data-aos="zoom-in"
                                             data-aos-duration="300"
